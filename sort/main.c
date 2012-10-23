@@ -23,7 +23,8 @@ int main(int argc, char **argv)
         scanf("%d", &A[i]);
 
     clock_t start = clock();
-    heap_sort(A, len);
+    //heap_sort(A, len);
+    qqsort(A, 0, len - 1);
     clock_t end = clock();
     printf("Time using: %ld\n", end - start);
 

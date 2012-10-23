@@ -7,4 +7,6 @@ void my_swap(int *a, int *b);
 
 void heap_sort(int A[], int size);
 
+void quick_sort(int A[], int size);
+
 #endif // SORT_H
